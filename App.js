@@ -1,5 +1,6 @@
 import 'react-native-gesture-handler';
 import { NavigationContainer } from '@react-navigation/native';
+import Movie from './Movie;
 import {
   StyleSheet,
   ScrollView,
