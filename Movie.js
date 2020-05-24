@@ -7,6 +7,7 @@ import {
   Button,
   Image,
   FlatList,
+  Text,
 } from 'react-native';
 
 const Movie = ({post, time}) =>{
