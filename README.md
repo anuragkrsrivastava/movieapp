@@ -1,0 +1,3 @@
+For Running this Movie App you need to install some libraries such as @react-navigation/native, @react-navigation/stack, react-native-reanimated, react-native-gesture-handler, react-native-screens, react-native-safe-area-context, @react-native-community/masked-view
+It is React Native. There will be a form on Home Page. You need to fill Title of Movie and Year of Release and after clicking on Submit Button.
+A list of movies will appear on screen. If you want more details about a particular movie. Then Click on Movie Title. It will be directed to another Screen where you will find details about the movie
