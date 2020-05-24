@@ -41,10 +41,10 @@ const App = () => {
       <View>
       <View>
         <FormLabel>Title</FormLabel>
-        <FormInput name="title" onChangeText={onChangeText}></FormInput>
+        <FormInput name="title" onChangeText={() => onChangeText(e)}></FormInput>
         <FormValidationMessage>This Field is Required</FormValidationMessage>
         <FormLabel>Year</FormLabel>
-        <FormInput name="year" onChangeText={onChangeText}></FormInput>
+        <FormInput name="year" onChangeText={() => onChangeText(e)}></FormInput>
         <FormValidationMessage>This Field is Required</FormValidationMessage>
         <Button type="submit" class="btn btn-success" onPress={onSubmit}>Submit</Button>
       </View>
