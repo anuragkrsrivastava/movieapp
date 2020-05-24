@@ -45,7 +45,7 @@ const App = () => {
         <FormLabel>Year</FormLabel>
         <FormInput name="year" onChangeText={onChangeText}></FormInput>
         <FormValidationMessage>This Field is Required</FormValidationMessage>
-        <Button type="submit" class="btn btn-success" onPress={onSubmit}></Button>
+        <Button type="submit" class="btn btn-success" onPress={onSubmit}>Submit</Button>
       </View>
       <View>
         <ScrollView style={styles.scrollView}>
